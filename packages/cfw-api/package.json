@@ -1,0 +1,16 @@
+{
+	"name": "@4tmr/cfw-api",
+	"type": "module",
+	"author": "Jin Black",
+	"exports": {
+		".": "./src/index.ts"
+	},
+	"dependencies": {
+		"@4tmr/cfw-services": "*",
+		"@trpc/server": "^10.45.2"
+	},
+	"devDependencies": {
+		"@4tmr/config-typescript": "*",
+		"@4tmr/cfw": "*"
+	}
+}

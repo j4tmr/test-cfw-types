@@ -1,0 +1,17 @@
+{
+	"name": "services",
+	"version": "0.0.0",
+	"private": true,
+	"scripts": {
+		"deploy": "wrangler deploy",
+		"dev": "wrangler dev --port 4003",
+		"start": "wrangler dev",
+		"cf-typegen": "wrangler types"
+	},
+	"dependencies": {
+		"@4tmr/cfw-services": "*"
+	},
+	"devDependencies": {
+		"@4tmr/cfw": "*"
+	}
+}

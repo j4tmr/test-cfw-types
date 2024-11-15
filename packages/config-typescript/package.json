@@ -1,0 +1,12 @@
+{
+  "name": "@4tmr/config-typescript",
+  "version": "1.0.0",
+  "private": true,
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@tsconfig/node20": "^20.1.4",
+    "typescript": "^5.5.4"
+  }
+}

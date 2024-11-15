@@ -1,0 +1,14 @@
+{
+  "extends": "@4tmr/config-typescript/esnext/tsconfig.json",
+  "compilerOptions": {
+    "strict": true,
+    "strictNullChecks": true,
+    "preserveSymlinks": true
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

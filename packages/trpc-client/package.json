@@ -1,0 +1,15 @@
+{
+	"name": "@4tmr/trpc-client",
+	"type": "module",
+	"exports": {
+		".": "./src/index.ts"
+	},
+	"author": "Jin Black",
+	"dependencies": {
+		"@4tmr/trpc-server": "*",
+		"@trpc/client": "^10.45.2"
+	},
+	"devDependencies": {
+		"@4tmr/config-typescript": "*"
+	}
+}

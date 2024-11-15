@@ -1,0 +1,6 @@
+{
+  "extends": "@4tmr/config-typescript/cfw/tsconfig.json",
+  "include": [
+    "src/**/*.ts"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+	"name": "@4tmr/trpc-server",
+	"type": "module",
+	"exports": {
+		".": "./src/index.ts"
+	},
+	"author": "Jin Black",
+	"dependencies": {
+		"@4tmr/cfw-api": "*",
+		"@trpc/server": "^10.45.2"
+	},
+	"devDependencies": {
+		"@4tmr/config-typescript": "*"
+	}
+}

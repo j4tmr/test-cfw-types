@@ -1,0 +1,11 @@
+{
+	"name": "@4tmr/cfw-services",
+	"type": "module",
+	"author": "Jin Black",
+	"exports": {
+		".": "./src/index.ts"
+	},
+	"devDependencies": {
+		"@4tmr/cfw": "*"
+	}
+}
