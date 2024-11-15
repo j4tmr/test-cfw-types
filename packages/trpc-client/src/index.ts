@@ -1,13 +1,3 @@
-/*
- * @Author: Jin Black
- * @Date: 2024-08-28 11:30:47
- * @LastEditors: Jin Black
- * @LastEditTime: 2024-10-30 16:25:06
- * @FilePath: /core/packages/trpc-client/src/index.ts
- * @Description: dota2sites@gmail.com
- *
- * Copyright (c) 2024 by 4tmr, All Rights Reserved.
- */
 import type { AppRouter } from '@4tmr/trpc-server';
 import { createTRPCProxyClient, httpLink } from '@trpc/client';
 

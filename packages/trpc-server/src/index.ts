@@ -12,7 +12,7 @@ import { router } from './libs/trpc';
 import { publicProcedure } from './libs/trpc';
 
 export const appRouter = router({
-	test: publicProcedure.query(async () => {
+	test: publicProcedure.query(() => {
 		return 'hello world'
 	})
 });
